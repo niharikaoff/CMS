@@ -25,11 +25,11 @@ $result=mysqli_query($con,$q);
       $result=mysqli_query($con,$q);
       $row_count=mysqli_num_rows($result);
      ?>
-     <thead>
+     <tr>
 	 <th>Name</th>
 	 <th>Email</th>
 	 <th>Credit</th>	
-     </thead>
+     </tr>
 
 <tbody>
   <tr>
