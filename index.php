@@ -9,14 +9,14 @@
     $con = mysqli_connect($server,$username,$password,$database);
 
     if(!$con){
-        die("connection to this database failed ,reason".mysqli_connect_error());
+        die("connection to database failed ,reason".mysqli_connect_error());
     }
 
     $name=$_POST['name'];
     $email=$_POST['email'];
     $credit=$_POST['credit'];
 
-    $sql= "INSERT INTO `students`.`students` ( `name`,`email`,`credit`) VALUES ('$name','$email','$credit')";
+    $sql= "INSERT INTO students ( name, email, credit) VALUES ('$name','$email','$credit')";
     if($con ->query(($sql))== true)
     {
      $insert=true;
