@@ -4,7 +4,7 @@
  $q="select name from students";
  $result=mysqli_query($con,$q);
  $_SESSION['to']=$_POST["transfer"];
-?>
+?> 
 <html>
 <head>
  <title>Amount Submit</title>
