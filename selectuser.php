@@ -14,7 +14,6 @@ $result=mysqli_query($con,$q);
        <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <form  action="userdetail.php" method="post">
     <h1 class="u-info-head">Select the user to send credit</h1>
     <table class="table-info">
@@ -30,7 +29,6 @@ $result=mysqli_query($con,$q);
 	 <th>Email</th>
 	 <th>Credit</th>	
      </tr>
-
 <tbody>
   <tr>
       <?php  
