@@ -113,8 +113,6 @@
  <br><br>
 <div class="button" >
   <a href="index.php">Go to Home</a>
-</div>
-
-        
+</div>       
 </body>
 </html>
