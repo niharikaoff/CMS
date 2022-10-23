@@ -8,7 +8,6 @@ $row=mysqli_fetch_array($result);
 $var=$row['credit'];
 $from=$_SESSION['name'];
 $to=$_SESSION['to'];
-//echo $_SESSION['name'];
 $q1="select credit from students where name='$to'";
 $result1=mysqli_query($con,$q1);
 $row=mysqli_fetch_array($result1);
